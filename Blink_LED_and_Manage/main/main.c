@@ -3,7 +3,7 @@
 #include <freertos/task.h>
 #include <driver/gpio.h>
 
-#define LED_PIN 	2
+#define LED_PIN 		2
 #define BLINK_TIMING 	500
 
 TaskHandle_t blinkTaskHandler = NULL;
